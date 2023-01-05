@@ -1,0 +1,48 @@
+
+* {
+	box-sizing: border-box;
+}
+
+:focus {
+	outline: orange auto 5px;
+}
+
+body {
+	font-family: sans-serif;
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background: orange;
+	background: -webkit-linear-gradient(to right, yellow, orange);
+	background: linear-gradient(to right, yellow, orange);
+}
+
+input {
+	border: 0 none;
+}
+
+.searcher {
+	width: 400px;
+	position: relative;
+	/* input;
+	.suggestions {
+		width: 100%; */
+	}
+	input {
+		background: rgba(255, 255, 255, 0.2);
+		height: input-height;
+		padding: 0 10px;
+	}
+	.suggestions {
+		position: absolute;
+		top: input-height;
+	}
+
+
+input {
+	border-bottom: 2px solid orange;
+}
+
+h1 { text-align: center }
+

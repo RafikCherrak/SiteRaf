@@ -1,0 +1,233 @@
+
+
+/*MAIN*/
+
+main{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+.image-haute{
+    width: 100%;
+    height: 5%;
+    border-radius: 8%;
+}
+
+.neonText {
+    margin-top: 10%;
+    position: absolute;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+  }
+    
+
+  
+  .neonText h1, h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+    
+  .neonText h1 {
+    font-size: 130%;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+  }
+  
+  .selection2
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      flex-wrap: nowrap;
+  }
+  .Presentation
+  {
+      align-items: center;
+      text-align: center;
+      margin: 30px;
+      font-size: 25px; 
+      color: rgb(174, 207, 196);
+  }
+  .image-carre
+  {
+      height: 250px;
+      width: auto;
+      margin: 10px;
+      border-radius: 10px;
+  }
+  
+  
+  .polaroid
+  {
+      margin: 15px;
+  }
+  div.polaroid {
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 25px;
+    }
+    
+  div.container {
+      text-align: center;
+      padding: 10px 20px;
+    }
+  
+  .preimage
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  details
+  {
+      width: 40%;
+      min-height: 5px;
+      max-width: 700px;
+      padding: 5px 5px 5px 5px;
+      margin: 12px ;
+      font-size: 15px;
+      border-radius: 15px;
+  }
+  
+  
+  details[open] {
+  min-height: 500px;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+  color: #fff;
+  text-align: center;
+  }
+  
+  details p {
+  color: rgb(14, 2, 2);
+  font-weight: 300;
+  font-family: 'Satisfy', cursive;
+  }
+  
+  summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Acme', sans-serif;
+  
+  }
+  
+  summary:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px rebeccapurple;
+  }
+  
+  summary::-webkit-details-marker {
+  display: none
+  }
+  
+  .control-icon {
+  fill: rebeccapurple;
+  transition: .3s ease;
+  pointer-events: none;
+  }
+  
+  .control-icon-close {
+  display: none;
+  }
+  
+  details[open] .control-icon-close {
+  display: initial;
+  transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+  display: none;
+  }
+  
+  details[open] summary:hover::after {
+  animation: pulse 1s ease;
+  }
+  
+  @keyframes pulse {
+  25% {
+  transform: scale(1.1);
+  }
+  50% {
+  transform: scale(1);
+  }
+  75% {
+  transform: scale(1.1);
+  }
+  100% {
+  transform: scale(1);
+  }
+  }
+  
+  
+  .polaroid1
+  {
+      margin: 25px;
+  }
+  div.polaroid1 {
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 5px;
+    }
+    
+  div.container1 {
+      text-align: center;
+      padding: 10px 20px;
+    }
+  
+  #opacity1 img {
+      opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  }
+  #opacity1:hover img {
+      opacity: .5;
+  }
+  
+  .zoom img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  
+  }
+  .zoom:hover img {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+  }
+  
+  
+  .billeterie{
+  
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .skyscanner{
+      display: flex;
+      justify-content: center;
+  }
+  

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Oclock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <div id="navhorloge" class="navrow">
+                <img id="imghorloge" src="img/horloge.png" alt="horloge" /><p id="phorloge">Oclock</p>
+            </div>
+            <div id="navcountdown" class="navrow">
+                <img id="imgcountdown" src="img/countdown0.png" alt="countdown" /><p id="pcountdown">Countdown</p>
+            </div>
+            <div id="navreveil" class="navrow">
+                <img id="imgreveil" src="img/reveil0.png" alt="reveil" /><p id="preveil">Alarm</p>
+            </div>
+            <div id="navchrono" class="navrow">
+                <img id="imgchrono" src="img/chrono0.png" alt="chrono" /><p id="pchrono">Timer</p>
+            </div>
+        </nav>
+        <section class="cwatch">
+            <article id="chorloge">
+                <p id="horloge"></p>
+                <article class="hms">
+                    <p>Hours</p>
+                    <p>Minutes</p>
+                    <p>Seconde</p>
+                </article>
+            </article>
+            <section id="ccountdown">
+                <section class="cform">
+                    <article class="ccases">
+                        <img src="img/arrowup.png" id="uph" class="up" alt="up">
+                        <input type="text" id="cdheures" class="cdform" value="0" />
+                        <img src="img/arrowdown.png" id="downh" class="down" alt="down">
+                    </article>
+                    <p> hours </p>
+                    <article class="ccases">
+                        <img src="img/arrowup.png" id="upm" class="up" alt="up">
+                        <input type="text" id="cdminutes" class="cdform" value="0" />
+                        <img src="img/arrowdown.png" id="downm" class="down" alt="down">
+                    </article>
+                    <p> minutes </p>
+                    <article class="ccases">
+                        <img src="img/arrowup.png" id="ups" class="up" alt="up">
+                        <input type="text" id="cdsecondes" class="cdform" value="0" />
+                        <img src="img/arrowdown.png" id="downs" class="down" alt="down">
+                    </article>
+                    <p> seconds </p>
+                </section>
+                <input type="button" id="cdbtn" value="GO" />
+            </section>
+            <section id="cchrono">
+                <span id="chronotime">0:00:00:00</span>
+                <form name="chronoForm">
+                    <input id="btnChronoStart" type="button" name="startstop" value="start!" />
+                    <input id="btnChronoReset" type="button" name="reset" value="reset!" />
+                    <input id="btnChronoTour" type="button" name="tours" value="Tour">
+                </form>
+            </section>
+            <section id="calarm">
+                <input type="text" name="alarmTitle" id="alarmTitle" placeholder="Title" />
+                <section class="cform">
+                    <input type="datetime-local" name="datepicker" id="datepicker" class="unstyled" />
+                </section>
+                <input type="button" id="alarmbtn" value="Créer" />
+            </section>
+        </section>
+        <section class="features">
+            <section id="alarmList">
+                <h1 class="title1">My alarms</h1>
+                <p id="noAlarm">No alarms set.</p>
+            </section>
+            <section id="ctourList">
+                <h1 class="title1">My tricks</h1>
+                <p id="noTour">No rounds recorded.</p>
+                <article id="tourList"></article>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

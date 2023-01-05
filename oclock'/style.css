@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    background-color: #ffb6c1;
+}
+
+main {
+    display: flex;
+}
+
+.navrow {
+    display: flex;
+    margin: 6px;
+   
+}
+
+.navrow p {
+    margin: 0; 
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6px;
+}
+
+#phorloge {
+    color: #FFA07A;
+}
+
+#pcountdown {
+    color: #E9967A;
+}
+
+#preveil {
+    color: #E9967A;
+}
+
+#pchrono {
+    color: #E9967A;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20vw;
+    /* background-color: orange; */
+    padding: 244px 0 0 40px;
+}
+
+.cwatch {
+    height: 100vh;
+    width: 50vw;
+    /* background-color: aliceblue; */
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 30vw;
+    /* background-color: aqua; */
+}
+
+#imgreveil{
+  width: 2rem;  
+}
+
+
+#imghorloge{
+    width: 2rem;  
+  }
+
+  #imgchrono{
+    width: 2rem;  
+  }
+
+
+#alarmList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tourList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tourStyle {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#noTour {
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#noAlarm {
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.alarmRecap {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.alarmTitle {
+    color: #FFA07A;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.alarmTimeDay {
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.alarmTime {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#chorloge {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#ccountdown {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#calarm {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ccdValue {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#cchrono {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#chronotime {
+    margin: 0 0 24px 0;
+    font-size: 34px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cdValue {
+    margin: 0 0 24px 0;
+    font-size: 34px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#horloge {
+    margin: 0;
+}
+
+.hms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+    color: grey;
+}
+
+.ccases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+}
+.cdform {
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    background-color: #E9967A;
+    border: none;
+    color: #FFA07A;
+    font-size: 18px;
+}
+
+.cform p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFA07A;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.up, .down {
+    height: 34px;
+    width: 34px;
+}
+
+.cform {
+    display: flex;
+}
+
+.time {
+    display: flex;
+}
+
+#cdbtn {
+    width: 164px;
+    height: 44px;
+    background-color: #E9967A;
+    border: 2px solid #262626;
+    color: #FFA07A;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
+}
+
+#btnChronoStart {
+    width: 164px;
+    height: 44px;
+    background-color: #E9967A;
+    border: 2px solid #262626;
+    color: #FFA07A;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
+}
+
+#btnChronoReset {
+    width: 164px;
+    height: 44px;
+    background-color: #E9967A;
+    border: 2px solid #262626;
+    color: #FFA07A;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
+}
+
+#btnChronoTour {
+    width: 164px;
+    height: 44px;
+    background-color: #E9967A;
+    border: 2px solid #262626;
+    color: #FFA07A;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
+}
+
+#alarmbtn {
+    width: 164px;
+    height: 44px;
+    background-color: #E9967A;
+    border: 2px solid #262626;
+    color: #FFA07A;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
+}
+
+.title1 {
+    color: #FFA07A;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 24px 0;
+}
+
+#datepicker {
+    height: 44px;
+    width: 340px;
+    border: 2px solid #FFA07A;
+    background-color: unset;
+    color: white;
+    padding-left: 14px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#alarmTitle {
+    height: 44px;
+    width: 340px;
+    border: 2px solid #FFA07A;
+    background-color: unset;
+    color: white;
+    padding-left: 14px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 14px;
+}
+
+.unstyled::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.calarmPop {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alarmPop {
+    background-color: #E9967A;
+    width: 400px;
+    padding: 14px;
+    border: 2px solid #FFA07A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alarmPopContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cBtnPopup {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.snooze {
+    margin-right: 5px;
+    border: 2px solid white;
+    background-color: unset;
+    color: #FFA07A;
+    height: 40px;
+    width: 124px;
+    border-radius: 50px;
+}
+
+.stopit {
+    margin-left: 5px;
+    border: 2px solid white;
+    background-color: unset;
+    color: #FFA07A;
+    height: 40px;
+    width: 124px;
+    border-radius: 50px;
+}
+
+.btnResetCd {
+    margin-left: 5px;
+    border: 2px solid white;
+    background-color: unset;
+    color: #FFA07A;
+    height: 40px;
+    width: 124px;
+    border-radius: 50px;
+}
